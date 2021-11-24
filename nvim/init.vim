@@ -1,5 +1,5 @@
 call plug#begin(stdpath('data') . '/plugged')
-Plug 'mhartington/oceanic-next'
+Plug 'overcache/NeoSolarized'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin' |
@@ -13,7 +13,7 @@ let g:coc_global_extensions = [
 			\ ]
 
 set termguicolors
-colorscheme OceanicNext
+colorscheme NeoSolarized 
 set number
 set relativenumber
 
